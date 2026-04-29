@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html lang="en">
+	<head>
+		<title>{{ personal.name }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/fontawesome-all.min.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header">
+				<div class="content">
+					<div class="inner">
+						<h1>{{ personal.name }}</h1>
+						<p>{{ personal.title }}</p>
+					</div>
+				</div>
+				<nav>
+					<ul>
+						<li><a href="#about">About</a></li>
+						<li><a href="#experience">Experience</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#education">Education</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+			<main id="main">
+
+				<!-- About -->
+				<article id="about" class="panel intro">
+					<h2 class="major">About</h2>
+					<p>{{ personal.bio }}</p>
+					<p>
+						<span class="icon solid fa-map-marker-alt"></span>
+						{{ personal.location }}
+					</p>
+					<ul class="actions">
+						<li>
+							<a href="{{ personal.resume_pdf }}" download class="button primary icon solid fa-download">
+								Download Resume
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</article>
+
+				<!-- Experience -->
+				<article id="experience" class="panel">
+					<h2 class="major">Experience</h2>
+					{% for job in experience %}
+					<section>
+						<h3>{{ job.company }}</h3>
+						<h4>{{ job.title }}</h4>
+						<p><em>{{ job.period }}</em></p>
+						<h5>Responsibilities</h5>
+						<ul>
+							{% for responsibility in job.responsibilities %}
+							<li>{{ responsibility }}</li>
+							{% endfor %}
+						</ul>
+						<h5>Technologies</h5>
+						<ul class="alt">
+							{% for tech in job.technologies %}
+							<li>{{ tech }}</li>
+							{% endfor %}
+						</ul>
+					</section>
+					{% endfor %}
+					<a href="#" class="close">Close</a>
+				</article>
+
+				<!-- Skills -->
+				<article id="skills" class="panel">
+					<h2 class="major">Skills</h2>
+					{% for skill in skills %}
+					<section>
+						<h3>{{ skill.category }}</h3>
+						<ul>
+							{% for item in skill['items'] %}
+							<li>{{ item }}</li>
+							{% endfor %}
+						</ul>
+					</section>
+					{% endfor %}
+					<a href="#" class="close">Close</a>
+				</article>
+
+				<!-- Education -->
+				<article id="education" class="panel">
+					<h2 class="major">Education</h2>
+					{% for edu in education %}
+					<section>
+						<h3>{{ edu.institution }}</h3>
+						<h4>{{ edu.degree }}</h4>
+						<p>
+							<em>{{ edu.year }}</em>
+							{% if edu.result %}
+							&mdash; {{ edu.result }}
+							{% endif %}
+						</p>
+					</section>
+					{% endfor %}
+					<a href="#" class="close">Close</a>
+				</article>
+
+				<!-- Contact -->
+				<article id="contact" class="panel">
+					<h2 class="major">Contact</h2>
+					<ul class="icons">
+						<li>
+							<a href="mailto:{{ contact.email }}" class="icon solid fa-envelope" title="Email">
+								<span class="label">Email</span>
+							</a>
+							<a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+						</li>
+					</ul>
+					<p>
+						<span class="icon solid fa-phone"></span>
+						{{ contact.phone }}
+					</p>
+					<ul class="icons">
+						<li>
+							<a href="{{ contact.github }}" class="icon brands fa-github" target="_blank" rel="noopener noreferrer" title="GitHub">
+								<span class="label">GitHub</span>
+							</a>
+							<a href="{{ contact.github }}" target="_blank" rel="noopener noreferrer">{{ contact.github }}</a>
+						</li>
+					</ul>
+					<a href="#" class="close">Close</a>
+				</article>
+
+			</main>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<p class="copyright">
+					&copy; {{ personal.name }}.
+					Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>.
+				</p>
+			</footer>
+
+		</div>
+
+		<!-- Background -->
+		<div id="bg">
+			<img src="images/bg.jpg" alt="Background image" style="display:none;" />
+			<img src="images/overlay.png" alt="Background overlay texture" style="display:none;" />
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

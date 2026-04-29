@@ -1,0 +1,161 @@
+personal:
+  name: "Kiran Thakur"
+  title: "Senior Software Developer | Data Scientist"
+  bio: >
+    Results-driven Senior Software Developer and Data Scientist with 6 years of
+    experience building scalable backend systems and data-driven solutions across
+    Healthcare, Stock Market, Banking, and Management domains. Proficient in Python,
+    AWS cloud services, and modern web frameworks including Django, Flask, and FastAPI.
+    Adept at designing RESTful APIs, automating data pipelines, and deploying
+    serverless architectures on AWS Lambda. Currently pursuing a Masters in Data
+    Science and Engineering from BITS Pilani, combining academic rigour with
+    hands-on industry expertise to deliver high-quality, maintainable software.
+  location: "Pune, Maharashtra, India"
+  resume_pdf: "Kiran Thakur Resume.pdf"
+
+experience:
+  - company: "Infinite Computer Solutions"
+    title: "Senior Software Developer"
+    period: "Feb 2025 – Present"
+    responsibilities:
+      - "Design and develop serverless microservices using AWS Lambda and API Gateway"
+      - "Build and maintain RESTful APIs with Django REST Framework for healthcare clients"
+      - "Manage data storage and retrieval using AWS S3 and DynamoDB"
+      - "Monitor application health and set up alerts using AWS CloudWatch"
+      - "Collaborate with cross-functional teams to gather requirements and deliver features"
+      - "Conduct code reviews and mentor junior developers on best practices"
+    technologies:
+      - "AWS Lambda"
+      - "AWS S3"
+      - "AWS DynamoDB"
+      - "AWS CloudWatch"
+      - "Django"
+      - "Django REST Framework"
+      - "Python"
+      - "API Gateway"
+
+  - company: "Extrapreneurs India"
+    title: "Software Developer"
+    period: "Aug 2022 – Oct 2024"
+    responsibilities:
+      - "Developed and maintained backend services for stock market analytics platform"
+      - "Designed RESTful APIs using FastAPI to serve real-time financial data"
+      - "Integrated PostgreSQL and MongoDB databases for structured and unstructured data"
+      - "Automated data ingestion pipelines to process large volumes of market data"
+      - "Implemented authentication and authorisation modules for multi-tenant SaaS product"
+      - "Wrote unit and integration tests to ensure code quality and reliability"
+    technologies:
+      - "FastAPI"
+      - "Python"
+      - "PostgreSQL"
+      - "MongoDB"
+      - "Docker"
+      - "Git"
+      - "JIRA"
+
+  - company: "I2E Consulting"
+    title: "Software Developer"
+    period: "Apr 2021 – May 2022"
+    responsibilities:
+      - "Built backend modules for banking and financial management applications"
+      - "Developed stored procedures and complex queries using PL-SQL and MSSQL"
+      - "Created Flask-based REST APIs to expose business logic to frontend clients"
+      - "Collaborated with business analysts to translate requirements into technical solutions"
+      - "Maintained and enhanced legacy systems while ensuring backward compatibility"
+      - "Participated in Agile sprints and contributed to sprint planning and retrospectives"
+    technologies:
+      - "Flask"
+      - "Python"
+      - "PL-SQL"
+      - "MSSQL"
+      - "MySQL"
+      - "Git"
+      - "Postman"
+
+  - company: "KayaDev AI Pvt. Ltd"
+    title: "Junior Software Developer"
+    period: "Mar 2019 – Jul 2020"
+    responsibilities:
+      - "Developed computer vision modules for image processing and object detection"
+      - "Built Flask-based web services to expose AI model predictions via REST APIs"
+      - "Processed and analysed datasets to train and evaluate machine learning models"
+      - "Integrated OpenCV pipelines for real-time video and image analysis"
+      - "Documented APIs and model performance metrics for internal and client use"
+      - "Assisted in deploying models to production environments on Ubuntu servers"
+    technologies:
+      - "OpenCV"
+      - "Flask"
+      - "Python"
+      - "Machine Learning"
+      - "NumPy"
+      - "Pandas"
+      - "Ubuntu"
+
+skills:
+  - category: "Languages"
+    items:
+      - "Python"
+
+  - category: "Cloud"
+    items:
+      - "AWS (S3, DynamoDB, Lambda, CloudWatch)"
+
+  - category: "Frameworks"
+    items:
+      - "Flask"
+      - "Django"
+      - "FastAPI"
+
+  - category: "Databases"
+    items:
+      - "SQL"
+      - "PL-SQL"
+      - "MSSQL"
+      - "PostgreSQL"
+      - "MySQL 8.0"
+      - "MongoDB 4.x"
+
+  - category: "Tools"
+    items:
+      - "JIRA"
+      - "Git"
+      - "MS-Office"
+      - "Postman"
+
+  - category: "Operating Systems"
+    items:
+      - "Windows"
+      - "Ubuntu"
+
+  - category: "Domains"
+    items:
+      - "Stock Market"
+      - "Healthcare"
+      - "Management"
+      - "Banking"
+
+education:
+  - institution: "BITS Pilani"
+    degree: "Masters in Data Science and Engineering"
+    year: "Pursuing"
+    result: "CGPA: 6"
+
+  - institution: "CDAC Chennai"
+    degree: "PG Diploma in Big Data Analytics"
+    year: "2018–19"
+    result: "70%"
+
+  - institution: "Pune University"
+    degree: "B.E. Computer Engineering"
+    year: "2016"
+    result: "60.40%"
+
+  - institution: "MSBTE"
+    degree: "Diploma in Computer Technology"
+    year: "2012"
+    result: "68.06%"
+
+contact:
+  email: "kiranthakur1001@gmail.com"
+  phone: "+91 8888012961"
+  github: "https://github.com/Kiran193"

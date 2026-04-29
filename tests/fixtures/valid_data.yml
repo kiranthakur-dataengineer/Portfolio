@@ -1,0 +1,34 @@
+personal:
+  name: "Test User"
+  title: "Software Developer"
+  bio: "A short professional bio for testing purposes."
+  location: "Test City, Test Country"
+  resume_pdf: "resume.pdf"
+
+experience:
+  - company: "Test Corp"
+    title: "Software Developer"
+    period: "2022 – Present"
+    responsibilities:
+      - "Developed and maintained software systems"
+      - "Collaborated with cross-functional teams"
+    technologies:
+      - "Python"
+      - "Django"
+
+skills:
+  - category: "Languages"
+    items:
+      - "Python"
+      - "JavaScript"
+
+education:
+  - institution: "Test University"
+    degree: "B.Sc. Computer Science"
+    year: "2022"
+    result: "First Class"
+
+contact:
+  email: "test@example.com"
+  phone: "+1 555 000 0000"
+  github: "https://github.com/testuser"
