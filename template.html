@@ -120,26 +120,18 @@
 				<!-- Contact -->
 				<article id="contact" class="panel">
 					<h2 class="major">Contact</h2>
-					<ul class="icons">
-						<li>
-							<a href="mailto:{{ contact.email }}" class="icon solid fa-envelope" title="Email">
-								<span class="label">Email</span>
-							</a>
-							<a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
-						</li>
-					</ul>
+					<p>
+						<span class="icon solid fa-envelope"></span>
+						<a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+					</p>
 					<p>
 						<span class="icon solid fa-phone"></span>
 						{{ contact.phone }}
 					</p>
-					<ul class="icons">
-						<li>
-							<a href="{{ contact.github }}" class="icon brands fa-github" target="_blank" rel="noopener noreferrer" title="GitHub">
-								<span class="label">GitHub</span>
-							</a>
-							<a href="{{ contact.github }}" target="_blank" rel="noopener noreferrer">{{ contact.github }}</a>
-						</li>
-					</ul>
+					<p>
+						<span class="icon brands fa-github"></span>
+						<a href="{{ contact.github }}" target="_blank" rel="noopener noreferrer">{{ contact.github }}</a>
+					</p>
 					<a href="#" class="close">Close</a>
 				</article>
 
@@ -149,7 +141,7 @@
 			<footer id="footer">
 				<p class="copyright">
 					&copy; {{ personal.name }}.
-					Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>.
+					<!-- Design: <a href="https://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a>. -->
 				</p>
 			</footer>
 

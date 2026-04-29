@@ -140,9 +140,9 @@ def test_semantic_elements_present(rendered_html, tag):
 # 8. Attribution test
 # ---------------------------------------------------------------------------
 
-def test_html5up_attribution_present(rendered_html):
-    """Rendered HTML contains the HTML5 UP attribution credit."""
-    assert "HTML5 UP" in rendered_html
+# def test_html5up_attribution_present(rendered_html):
+#     """Rendered HTML contains the HTML5 UP attribution credit."""
+#     assert "HTML5 UP" in rendered_html
 
 
 # ---------------------------------------------------------------------------
